@@ -10,4 +10,8 @@ class MainApplicationTests {
 	void contextLoads() {
 	}
 
+	@Test
+	void addingForTestingPurpose() {
+	}
+
 }
