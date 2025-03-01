@@ -8,7 +8,7 @@ import se.hjulverkstan.main.webedit.dto.NewShopWithLangDto;
 import se.hjulverkstan.main.webedit.dto.ShopDto;
 import se.hjulverkstan.main.webedit.dto.UpdateShopWithLangDto;
 import se.hjulverkstan.main.model.webedit.Language;
-import se.hjulverkstan.main.service.webedit.ShopService;
+import se.hjulverkstan.main.webedit.service.ShopService;
 
 import java.util.List;
 

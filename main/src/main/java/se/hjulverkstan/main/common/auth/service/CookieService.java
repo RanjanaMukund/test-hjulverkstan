@@ -2,7 +2,8 @@ package se.hjulverkstan.main.common.auth.service;
 
 import jakarta.servlet.http.HttpServletResponse;
 import se.hjulverkstan.Exceptions.TokenRefreshException;
-import se.hjulverkstan.main.dto.auth.UserDetails;
+import se.hjulverkstan.main.common.auth.dto.response.UserDetails;
+
 
 public interface CookieService {
     /**

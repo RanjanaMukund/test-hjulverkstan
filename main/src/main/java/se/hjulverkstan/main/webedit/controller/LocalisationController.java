@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import se.hjulverkstan.main.webedit.dto.AllWebEditEntitiesByLangDto;
 import se.hjulverkstan.main.model.webedit.Language;
-import se.hjulverkstan.main.service.webedit.LocalisationServiceImpl;
+import se.hjulverkstan.main.webedit.service.LocalisationServiceImpl;
 
 import static se.hjulverkstan.main.util.WebEditUtils.validateLanguage;
 

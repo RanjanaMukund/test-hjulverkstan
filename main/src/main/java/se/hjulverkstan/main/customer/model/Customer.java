@@ -6,7 +6,7 @@ import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
 import se.hjulverkstan.main.ticket.model.Ticket;
-import se.hjulverkstan.main.model.base.Auditable;
+import se.hjulverkstan.main.common.model.base.Auditable;
 
 import java.util.List;
 

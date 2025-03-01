@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.*;
 import se.hjulverkstan.main.webedit.dto.GeneralContentDto;
 import se.hjulverkstan.main.webedit.dto.UpdateGeneralContentWithLangDto;
 import se.hjulverkstan.main.model.webedit.Language;
-import se.hjulverkstan.main.service.webedit.GeneralContentService;
+import se.hjulverkstan.main.webedit.service.GeneralContentService;
 
 import java.util.List;
 

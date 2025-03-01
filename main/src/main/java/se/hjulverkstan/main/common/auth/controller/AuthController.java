@@ -10,7 +10,7 @@ import org.springframework.security.authentication.InsufficientAuthenticationExc
 import org.springframework.web.bind.annotation.*;
 import se.hjulverkstan.Exceptions.MissingArgumentException;
 import se.hjulverkstan.Exceptions.TokenRefreshException;
-import se.hjulverkstan.main.dto.MessageResponse;
+import se.hjulverkstan.main.common.dto.MessageResponse;
 import se.hjulverkstan.main.dto.auth.LoginRequest;
 import se.hjulverkstan.main.dto.auth.UserDetails;
 import se.hjulverkstan.main.security.services.AuthService;

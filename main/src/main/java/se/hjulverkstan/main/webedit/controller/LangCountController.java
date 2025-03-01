@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import se.hjulverkstan.main.webedit.dto.LangCountPerEntityDto;
-import se.hjulverkstan.main.service.webedit.LangCountService;
+import se.hjulverkstan.main.webedit.service.LangCountService;
 
 @RestController
 @RequestMapping("v1/web-edit/count")

@@ -8,7 +8,7 @@ import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Service;
 import se.hjulverkstan.main.auth.security.services.UserDetailsImplementation;
-import se.hjulverkstan.main.dto.MessageResponse;
+import se.hjulverkstan.main.common.dto.MessageResponse;
 import se.hjulverkstan.main.dto.auth.LoginRequest;
 import se.hjulverkstan.main.dto.auth.UserDetails;
 import se.hjulverkstan.main.service.RefreshTokenService;

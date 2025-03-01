@@ -8,7 +8,7 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import se.hjulverkstan.main.model.base.Auditable;
+import se.hjulverkstan.main.common.model.base.Auditable;
 
 import java.util.HashSet;
 import java.util.Set;

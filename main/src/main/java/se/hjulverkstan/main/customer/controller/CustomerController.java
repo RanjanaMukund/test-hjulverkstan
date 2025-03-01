@@ -4,6 +4,8 @@ import jakarta.validation.Valid;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+import se.hjulverkstan.main.customer.dto.request.CustomerDto;
+import se.hjulverkstan.main.customer.dto.respose.GetAllCustomerDto;
 import se.hjulverkstan.main.customer.service.CustomerService;
 import se.hjulverkstan.main.customer.dto.request.NewCustomerDto;
 
