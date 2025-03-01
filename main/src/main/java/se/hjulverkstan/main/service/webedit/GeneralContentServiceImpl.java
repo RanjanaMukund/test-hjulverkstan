@@ -5,14 +5,13 @@ import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import se.hjulverkstan.Exceptions.ElementNotFoundException;
-import se.hjulverkstan.main.dto.webedit.GeneralContentDto;
-import se.hjulverkstan.main.dto.webedit.UpdateGeneralContentWithLangDto;
+import se.hjulverkstan.main.webedit.dto.GeneralContentDto;
+import se.hjulverkstan.main.webedit.dto.UpdateGeneralContentWithLangDto;
 import se.hjulverkstan.main.model.webedit.FieldNameType;
 import se.hjulverkstan.main.model.webedit.GeneralContent;
 import se.hjulverkstan.main.model.webedit.Language;
 import se.hjulverkstan.main.model.webedit.LocalisedContent;
 import se.hjulverkstan.main.repository.webedit.GeneralContentRepository;
-import se.hjulverkstan.main.repository.webedit.LocalisedContentRepository;
 
 import java.util.List;
 
