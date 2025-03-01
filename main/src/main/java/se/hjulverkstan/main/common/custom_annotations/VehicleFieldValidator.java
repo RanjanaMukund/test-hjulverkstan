@@ -4,8 +4,8 @@ import jakarta.validation.ConstraintValidator;
 import jakarta.validation.ConstraintValidatorContext;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import se.hjulverkstan.main.dto.vehicles.EditVehicleBatchDto;
-import se.hjulverkstan.main.dto.vehicles.NewVehiclebatchDto;
+import se.hjulverkstan.main.vehicle.dto.request.EditVehicleBatchDto;
+import se.hjulverkstan.main.vehicle.dto.request.NewVehiclebatchDto;
 
 
 public class VehicleFieldValidator implements ConstraintValidator<VehicleValidation, BaseVehicleFieldValidation> {

@@ -4,6 +4,7 @@ import jakarta.validation.Valid;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+import se.hjulverkstan.main.ticket.dto.response.GetAllTicketDto;
 import se.hjulverkstan.main.ticket.service.TicketService;
 import se.hjulverkstan.main.ticket.dto.request.*;
 

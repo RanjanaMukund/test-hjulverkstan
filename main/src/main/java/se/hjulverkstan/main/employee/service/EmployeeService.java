@@ -1,6 +1,6 @@
 package se.hjulverkstan.main.employee.service;
 
-import se.hjulverkstan.main.dto.NewEmployeeDto;
+import se.hjulverkstan.main.employee.dto.request.NewEmployeeDto;
 import se.hjulverkstan.main.employee.dto.request.EmployeeDto;
 import se.hjulverkstan.main.employee.dto.response.GetAllEmployeeDto;
 

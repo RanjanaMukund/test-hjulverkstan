@@ -2,7 +2,7 @@ package se.hjulverkstan.main.location.model;
 
 import jakarta.persistence.*;
 import lombok.*;
-import se.hjulverkstan.main.model.Vehicle;
+import se.hjulverkstan.main.vehicle.model.Vehicle;
 import se.hjulverkstan.main.model.base.Auditable;
 import se.hjulverkstan.main.model.webedit.Shop;
 

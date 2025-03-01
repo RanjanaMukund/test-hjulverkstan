@@ -4,8 +4,8 @@ import jakarta.validation.Valid;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import se.hjulverkstan.main.dto.webedit.GeneralContentDto;
-import se.hjulverkstan.main.dto.webedit.UpdateGeneralContentWithLangDto;
+import se.hjulverkstan.main.webedit.dto.GeneralContentDto;
+import se.hjulverkstan.main.webedit.dto.UpdateGeneralContentWithLangDto;
 import se.hjulverkstan.main.model.webedit.Language;
 import se.hjulverkstan.main.service.webedit.GeneralContentService;
 

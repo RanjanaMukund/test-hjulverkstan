@@ -1,0 +1,45 @@
+package se.hjulverkstan.main.vehicle.dto.request;
+
+import com.fasterxml.jackson.annotation.JsonFormat;
+import jakarta.validation.constraints.NotNull;
+import lombok.*;
+import se.hjulverkstan.main.vehicle.model.VehicleBrakeType;
+import se.hjulverkstan.main.vehicle.model.BikeSize;
+import se.hjulverkstan.main.vehicle.model.BikeType;
+import se.hjulverkstan.main.vehicle.model.VehicleBike;
+import se.hjulverkstan.main.vehicle.model.VehicleBrand;
+
+@Setter
+@Getter
+@ToString
+@EqualsAndHashCode(callSuper = true)
+@AllArgsConstructor
+@NoArgsConstructor
+public class VehicleBikeDto extends VehicleDto {
+
+    @NotNull(message = "Bike type is required")
+    @JsonFormat(shape = JsonFormat.Shape.STRING)
+    private BikeType bikeType;
+    @NotNull(message = "Number of gears are required")
+    private Integer gearCount;
+    @NotNull(message = "Size is required")
+    @JsonFormat(shape = JsonFormat.Shape.STRING)
+    private BikeSize size;
+    @NotNull(message = "Brake type is required")
+    @JsonFormat(shape = JsonFormat.Shape.STRING)
+    private VehicleBrakeType brakeType;
+    @NotNull(message = "Brand is required")
+    @JsonFormat(shape = JsonFormat.Shape.STRING)
+    private VehicleBrand brand;
+
+
+    public VehicleBikeDto(VehicleBike vehicleBike) {
+        super(vehicleBike);
+        this.bikeType = vehicleBike.getBikeType();
+        this.gearCount = vehicleBike.getGearCount();
+        this.size = vehicleBike.getSize();
+        this.brakeType = vehicleBike.getBrakeType();
+        this.brand = vehicleBike.getBrand();
+
+    }
+}

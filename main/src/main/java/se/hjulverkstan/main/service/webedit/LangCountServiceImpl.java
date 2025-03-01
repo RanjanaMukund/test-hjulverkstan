@@ -3,7 +3,7 @@ package se.hjulverkstan.main.service.webedit;
 import org.springframework.stereotype.Service;
 import se.hjulverkstan.Exceptions.ElementNotFoundException;
 import se.hjulverkstan.Exceptions.UnsupportedArgumentException;
-import se.hjulverkstan.main.dto.webedit.LangCountPerEntityDto;
+import se.hjulverkstan.main.webedit.dto.LangCountPerEntityDto;
 import se.hjulverkstan.main.model.webedit.Language;
 import se.hjulverkstan.main.repository.webedit.LocalisedContentRepository;
 

@@ -2,7 +2,9 @@ package se.hjulverkstan.main.ticket.model;
 
 import jakarta.persistence.*;
 import lombok.*;
-import se.hjulverkstan.main.model.Vehicle;
+import se.hjulverkstan.main.customer.model.Customer;
+import se.hjulverkstan.main.employee.model.Employee;
+import se.hjulverkstan.main.vehicle.model.Vehicle;
 import se.hjulverkstan.main.model.base.Auditable;
 import se.hjulverkstan.Exceptions.UnsupportedTicketStatusException;
 

@@ -8,12 +8,13 @@ import se.hjulverkstan.Exceptions.ElementNotFoundException;
 import se.hjulverkstan.Exceptions.UnsupportedTicketTypeException;
 
 import se.hjulverkstan.Exceptions.UnsupportedTicketVehiclesException;
-import se.hjulverkstan.main.model.*;
 import se.hjulverkstan.main.ticket.repository.TicketRepository;
-import se.hjulverkstan.main.repository.VehicleRepository;
+import se.hjulverkstan.main.vehicle.repository.VehicleRepository;
 import se.hjulverkstan.main.ticket.dto.request.*;
 import se.hjulverkstan.main.ticket.model.*;
 import se.hjulverkstan.main.ticket.service.TicketService;
+import se.hjulverkstan.main.vehicle.model.Vehicle;
+import se.hjulverkstan.main.vehicle.model.VehicleStatus;
 
 import java.util.ArrayList;
 import java.util.List;

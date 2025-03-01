@@ -5,7 +5,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import se.hjulverkstan.main.customer.service.CustomerService;
-import se.hjulverkstan.main.dto.NewCustomerDto;
+import se.hjulverkstan.main.customer.dto.request.NewCustomerDto;
 
 @RestController
 @RequestMapping("v1/customer")

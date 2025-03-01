@@ -5,7 +5,7 @@ import lombok.Getter;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
-import se.hjulverkstan.main.model.User;
+import se.hjulverkstan.main.user.model.User;
 
 import java.io.Serial;
 import java.util.Collection;

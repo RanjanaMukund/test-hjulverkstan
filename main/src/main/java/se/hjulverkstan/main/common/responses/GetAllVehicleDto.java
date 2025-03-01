@@ -3,7 +3,7 @@ package se.hjulverkstan.main.common.responses;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import se.hjulverkstan.main.dto.vehicles.VehicleDto;
+import se.hjulverkstan.main.vehicle.dto.request.VehicleDto;
 
 import java.util.List;
 

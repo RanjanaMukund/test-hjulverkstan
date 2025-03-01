@@ -7,9 +7,9 @@ import org.springframework.transaction.annotation.Transactional;
 import se.hjulverkstan.Exceptions.ElementNotFoundException;
 import se.hjulverkstan.Exceptions.TokenRefreshException;
 import se.hjulverkstan.main.model.RefreshToken;
-import se.hjulverkstan.main.model.User;
+import se.hjulverkstan.main.user.model.User;
 import se.hjulverkstan.main.repository.RefreshTokenRepository;
-import se.hjulverkstan.main.repository.UserRepository;
+import se.hjulverkstan.main.user.repository.UserRepository;
 
 import java.time.LocalDateTime;
 import java.time.temporal.ChronoUnit;

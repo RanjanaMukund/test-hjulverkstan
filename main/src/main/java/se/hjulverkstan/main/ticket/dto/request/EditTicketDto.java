@@ -5,7 +5,7 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import se.hjulverkstan.main.ticket.model.Ticket;
-import se.hjulverkstan.main.model.Vehicle;
+import se.hjulverkstan.main.vehicle.model.Vehicle;
 
 import java.time.LocalDateTime;
 import java.util.List;

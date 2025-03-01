@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
-import se.hjulverkstan.main.dto.webedit.AllWebEditEntitiesByLangDto;
+import se.hjulverkstan.main.webedit.dto.AllWebEditEntitiesByLangDto;
 import se.hjulverkstan.main.model.webedit.Language;
 import se.hjulverkstan.main.service.webedit.LocalisationServiceImpl;
 

@@ -5,6 +5,7 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import se.hjulverkstan.main.user.model.User;
 
 import java.time.LocalDateTime;
 

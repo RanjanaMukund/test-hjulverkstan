@@ -1,8 +1,8 @@
 package se.hjulverkstan.main.service.webedit;
 
-import se.hjulverkstan.main.dto.webedit.UpdateShopWithLangDto;
-import se.hjulverkstan.main.dto.webedit.NewShopWithLangDto;
-import se.hjulverkstan.main.dto.webedit.ShopDto;
+import se.hjulverkstan.main.webedit.dto.UpdateShopWithLangDto;
+import se.hjulverkstan.main.webedit.dto.NewShopWithLangDto;
+import se.hjulverkstan.main.webedit.dto.ShopDto;
 import se.hjulverkstan.main.model.webedit.Language;
 
 import java.util.List;

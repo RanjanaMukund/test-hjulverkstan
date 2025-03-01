@@ -6,9 +6,9 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import se.hjulverkstan.main.dto.responses.GetAllVehicleDto;
-import se.hjulverkstan.main.dto.vehicles.VehicleDto;
-import se.hjulverkstan.main.service.VehicleService;
+import se.hjulverkstan.main.vehicle.dto.response.GetAllVehicleDto;
+import se.hjulverkstan.main.vehicle.dto.request.VehicleDto;
+import se.hjulverkstan.main.vehicle.service.VehicleService;
 
 @RestController
 @RequestMapping("/v1/public")

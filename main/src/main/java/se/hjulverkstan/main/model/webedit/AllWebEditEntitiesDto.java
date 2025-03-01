@@ -3,7 +3,7 @@ package se.hjulverkstan.main.model.webedit;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
-import se.hjulverkstan.main.dto.webedit.ShopDto;
+import se.hjulverkstan.main.webedit.dto.ShopDto;
 
 import java.util.Set;
 

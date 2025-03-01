@@ -7,8 +7,8 @@ import org.springframework.stereotype.Service;
 import se.hjulverkstan.Exceptions.CouldNotDeleteException;
 import se.hjulverkstan.Exceptions.ElementNotFoundException;
 import se.hjulverkstan.main.location.service.LocationService;
-import se.hjulverkstan.main.model.Vehicle;
-import se.hjulverkstan.main.repository.VehicleRepository;
+import se.hjulverkstan.main.vehicle.model.Vehicle;
+import se.hjulverkstan.main.vehicle.repository.VehicleRepository;
 
 import java.util.ArrayList;
 import java.util.List;

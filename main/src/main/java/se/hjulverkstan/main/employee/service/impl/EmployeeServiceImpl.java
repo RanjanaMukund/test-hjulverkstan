@@ -5,7 +5,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 import se.hjulverkstan.Exceptions.ElementNotFoundException;
-import se.hjulverkstan.main.dto.NewEmployeeDto;
+import se.hjulverkstan.main.employee.dto.request.NewEmployeeDto;
 import se.hjulverkstan.main.employee.dto.request.EmployeeDto;
 import se.hjulverkstan.main.employee.dto.response.GetAllEmployeeDto;
 import se.hjulverkstan.main.employee.model.Employee;

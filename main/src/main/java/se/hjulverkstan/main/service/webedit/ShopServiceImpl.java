@@ -7,9 +7,9 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import se.hjulverkstan.Exceptions.DataViolationException;
 import se.hjulverkstan.Exceptions.ElementNotFoundException;
-import se.hjulverkstan.main.dto.webedit.*;
 import se.hjulverkstan.main.model.webedit.*;
 import se.hjulverkstan.main.repository.webedit.ShopRepository;
+import se.hjulverkstan.main.webedit.dto.*;
 
 import java.util.List;
 
