@@ -6,7 +6,7 @@ import jakarta.validation.constraints.NotNull;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import se.hjulverkstan.main.model.CustomerType;
+import se.hjulverkstan.main.customer.model.CustomerType;
 
 @Data
 @AllArgsConstructor

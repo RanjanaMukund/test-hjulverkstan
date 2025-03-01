@@ -1,16 +1,16 @@
-package se.hjulverkstan.main.service;
+package se.hjulverkstan.main.customer.service.impl;
 
 import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import se.hjulverkstan.Exceptions.ElementNotFoundException;
 import se.hjulverkstan.Exceptions.MissingArgumentException;
-import se.hjulverkstan.main.dto.CustomerDto;
+import se.hjulverkstan.main.customer.dto.request.CustomerDto;
+import se.hjulverkstan.main.customer.model.Customer;
+import se.hjulverkstan.main.customer.repository.CustomerRepository;
+import se.hjulverkstan.main.customer.service.CustomerService;
 import se.hjulverkstan.main.dto.NewCustomerDto;
 import se.hjulverkstan.main.dto.responses.GetAllCustomerDto;
-import se.hjulverkstan.main.model.Customer;
-import se.hjulverkstan.main.model.CustomerType;
-import se.hjulverkstan.main.repository.CustomerRepository;
 
 import java.util.ArrayList;
 import java.util.List;

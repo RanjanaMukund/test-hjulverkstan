@@ -1,4 +1,4 @@
-package se.hjulverkstan.main.dto;
+package se.hjulverkstan.main.customer.dto.request;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import jakarta.validation.constraints.Email;
@@ -7,8 +7,8 @@ import jakarta.validation.constraints.NotNull;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import se.hjulverkstan.main.model.Customer;
-import se.hjulverkstan.main.model.CustomerType;
+import se.hjulverkstan.main.customer.model.Customer;
+import se.hjulverkstan.main.customer.model.CustomerType;
 import se.hjulverkstan.main.model.Ticket;
 
 import java.time.LocalDateTime;

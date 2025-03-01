@@ -11,7 +11,6 @@ import se.hjulverkstan.Exceptions.UnsupportedTicketVehiclesException;
 import se.hjulverkstan.main.dto.responses.GetAllTicketDto;
 import se.hjulverkstan.main.dto.tickets.*;
 import se.hjulverkstan.main.model.*;
-import se.hjulverkstan.main.repository.CustomerRepository;
 import se.hjulverkstan.main.repository.EmployeeRepository;
 import se.hjulverkstan.main.repository.TicketRepository;
 import se.hjulverkstan.main.repository.VehicleRepository;

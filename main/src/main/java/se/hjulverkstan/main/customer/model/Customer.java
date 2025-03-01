@@ -1,7 +1,11 @@
-package se.hjulverkstan.main.model;
+package se.hjulverkstan.main.customer.model;
 
 import jakarta.persistence.*;
-import lombok.*;
+import lombok.EqualsAndHashCode;
+import lombok.Getter;
+import lombok.Setter;
+import lombok.ToString;
+import se.hjulverkstan.main.model.Ticket;
 import se.hjulverkstan.main.model.base.Auditable;
 
 import java.util.List;
