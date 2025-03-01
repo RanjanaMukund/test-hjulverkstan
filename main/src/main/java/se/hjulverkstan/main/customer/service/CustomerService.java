@@ -2,7 +2,6 @@ package se.hjulverkstan.main.customer.service;
 
 import se.hjulverkstan.main.customer.dto.request.CustomerDto;
 import se.hjulverkstan.main.dto.NewCustomerDto;
-import se.hjulverkstan.main.dto.responses.GetAllCustomerDto;
 
 public interface CustomerService {
     GetAllCustomerDto getAllCustomer();

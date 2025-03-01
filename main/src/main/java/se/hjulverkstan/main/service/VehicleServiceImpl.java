@@ -11,8 +11,8 @@ import se.hjulverkstan.Exceptions.UnsupportedVehicleTypeException;
 import se.hjulverkstan.main.dto.vehicles.*;
 import se.hjulverkstan.main.dto.responses.*;
 import se.hjulverkstan.main.model.*;
-import se.hjulverkstan.main.repository.LocationRepository;
 import se.hjulverkstan.main.repository.VehicleRepository;
+import se.hjulverkstan.main.ticket.model.Ticket;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -8,6 +8,7 @@ import lombok.NoArgsConstructor;
 import se.hjulverkstan.main.custom_annotations.FullVehicleFieldValidation;
 import se.hjulverkstan.main.custom_annotations.VehicleValidation;
 import se.hjulverkstan.main.model.*;
+import se.hjulverkstan.main.ticket.model.Ticket;
 
 import java.time.LocalDateTime;
 import java.util.List;

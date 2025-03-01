@@ -8,10 +8,7 @@ import org.springframework.transaction.annotation.Transactional;
 import se.hjulverkstan.Exceptions.DataViolationException;
 import se.hjulverkstan.Exceptions.ElementNotFoundException;
 import se.hjulverkstan.main.dto.webedit.*;
-import se.hjulverkstan.main.model.Location;
 import se.hjulverkstan.main.model.webedit.*;
-import se.hjulverkstan.main.repository.LocationRepository;
-import se.hjulverkstan.main.repository.webedit.LocalisedContentRepository;
 import se.hjulverkstan.main.repository.webedit.ShopRepository;
 
 import java.util.List;

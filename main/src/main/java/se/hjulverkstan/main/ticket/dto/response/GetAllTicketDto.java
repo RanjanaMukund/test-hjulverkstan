@@ -1,4 +1,4 @@
-package se.hjulverkstan.main.common.responses;
+package se.hjulverkstan.main.ticket.dto.response;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

@@ -4,10 +4,7 @@ import jakarta.validation.Valid;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import se.hjulverkstan.main.dto.EmployeeDto;
 import se.hjulverkstan.main.dto.NewEmployeeDto;
-import se.hjulverkstan.main.dto.responses.GetAllEmployeeDto;
-import se.hjulverkstan.main.service.EmployeeService;
 
 @RestController
 @RequestMapping("v1/employee")

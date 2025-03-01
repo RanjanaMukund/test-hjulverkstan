@@ -10,7 +10,6 @@ import se.hjulverkstan.main.customer.model.Customer;
 import se.hjulverkstan.main.customer.repository.CustomerRepository;
 import se.hjulverkstan.main.customer.service.CustomerService;
 import se.hjulverkstan.main.dto.NewCustomerDto;
-import se.hjulverkstan.main.dto.responses.GetAllCustomerDto;
 
 import java.util.ArrayList;
 import java.util.List;

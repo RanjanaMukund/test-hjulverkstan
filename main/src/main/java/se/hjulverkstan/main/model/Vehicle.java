@@ -3,6 +3,7 @@ package se.hjulverkstan.main.model;
 import jakarta.persistence.*;
 import lombok.Data;
 import se.hjulverkstan.main.model.base.Auditable;
+import se.hjulverkstan.main.ticket.model.Ticket;
 
 import java.util.List;
 

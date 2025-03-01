@@ -4,10 +4,6 @@ import jakarta.validation.Valid;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import se.hjulverkstan.main.dto.LocationDto;
-import se.hjulverkstan.main.dto.NewLocationDto;
-import se.hjulverkstan.main.dto.responses.GetAllLocationDto;
-import se.hjulverkstan.main.service.LocationService;
 
 @RestController
 @RequestMapping("v1/location")

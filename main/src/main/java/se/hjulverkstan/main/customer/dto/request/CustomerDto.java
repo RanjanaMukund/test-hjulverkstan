@@ -9,7 +9,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import se.hjulverkstan.main.customer.model.Customer;
 import se.hjulverkstan.main.customer.model.CustomerType;
-import se.hjulverkstan.main.model.Ticket;
+import se.hjulverkstan.main.ticket.model.Ticket;
 
 import java.time.LocalDateTime;
 import java.util.List;

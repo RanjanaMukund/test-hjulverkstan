@@ -7,7 +7,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import se.hjulverkstan.main.custom_annotations.BaseVehicleFieldValidation;
 import se.hjulverkstan.main.custom_annotations.VehicleValidation;
-import se.hjulverkstan.main.model.Ticket;
+import se.hjulverkstan.main.ticket.model.Ticket;
 import se.hjulverkstan.main.model.Vehicle;
 import se.hjulverkstan.main.model.VehicleType;
 

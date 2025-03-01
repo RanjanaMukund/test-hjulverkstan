@@ -6,7 +6,6 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import se.hjulverkstan.main.customer.service.CustomerService;
 import se.hjulverkstan.main.dto.NewCustomerDto;
-import se.hjulverkstan.main.dto.responses.GetAllCustomerDto;
 
 @RestController
 @RequestMapping("v1/customer")

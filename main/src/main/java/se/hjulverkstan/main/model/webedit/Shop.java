@@ -5,7 +5,6 @@ import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
-import se.hjulverkstan.main.model.Location;
 import se.hjulverkstan.main.model.base.Auditable;
 
 import java.util.List;
