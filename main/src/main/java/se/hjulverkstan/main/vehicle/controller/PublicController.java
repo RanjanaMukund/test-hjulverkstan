@@ -1,4 +1,4 @@
-package se.hjulverkstan.main.controller;
+package se.hjulverkstan.main.vehicle.controller;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

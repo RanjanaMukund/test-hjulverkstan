@@ -1,4 +1,4 @@
-package se.hjulverkstan.main.controller;
+package se.hjulverkstan.main.location.controller;
 
 import jakarta.validation.Valid;
 import org.springframework.http.HttpStatus;

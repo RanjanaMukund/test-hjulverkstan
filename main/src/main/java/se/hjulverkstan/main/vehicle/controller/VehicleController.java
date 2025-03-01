@@ -1,11 +1,11 @@
-package se.hjulverkstan.main.controller;
+package se.hjulverkstan.main.vehicle.controller;
 
 import jakarta.validation.Valid;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+import se.hjulverkstan.main.dto.responses.GetAllVehicleDto;
 import se.hjulverkstan.main.dto.vehicles.*;
-import se.hjulverkstan.main.dto.responses.*;
 import se.hjulverkstan.main.service.VehicleService;
 
 @RestController

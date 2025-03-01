@@ -1,12 +1,12 @@
-package se.hjulverkstan.main.controller.webedit;
+package se.hjulverkstan.main.webedit.controller;
 
 import jakarta.validation.Valid;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import se.hjulverkstan.main.dto.webedit.UpdateShopWithLangDto;
 import se.hjulverkstan.main.dto.webedit.NewShopWithLangDto;
 import se.hjulverkstan.main.dto.webedit.ShopDto;
+import se.hjulverkstan.main.dto.webedit.UpdateShopWithLangDto;
 import se.hjulverkstan.main.model.webedit.Language;
 import se.hjulverkstan.main.service.webedit.ShopService;
 

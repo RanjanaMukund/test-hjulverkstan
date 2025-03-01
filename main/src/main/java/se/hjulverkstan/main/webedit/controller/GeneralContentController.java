@@ -1,4 +1,4 @@
-package se.hjulverkstan.main.controller.webedit;
+package se.hjulverkstan.main.webedit.controller;
 
 import jakarta.validation.Valid;
 import org.springframework.http.HttpStatus;
