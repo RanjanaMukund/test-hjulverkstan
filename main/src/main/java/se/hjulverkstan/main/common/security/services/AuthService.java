@@ -7,11 +7,11 @@ import org.springframework.security.core.Authentication;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Service;
-import se.hjulverkstan.main.auth.security.services.UserDetailsImplementation;
+import se.hjulverkstan.main.common.auth.dto.request.LoginRequest;
+import se.hjulverkstan.main.common.auth.dto.response.UserDetails;
+import se.hjulverkstan.main.common.auth.service.RefreshTokenService;
 import se.hjulverkstan.main.common.dto.MessageResponse;
-import se.hjulverkstan.main.dto.auth.LoginRequest;
-import se.hjulverkstan.main.dto.auth.UserDetails;
-import se.hjulverkstan.main.service.RefreshTokenService;
+
 
 import java.util.List;
 import java.util.stream.Collectors;
@@ -52,7 +52,7 @@ public class AuthService {
     }
 
     private static UserDetails getUserDetails(Authentication authentication) {
-        UserDetailsImplementation userDetails = (UserDetailsImplementation) authentication.getPrincipal();
+        se.hjulverkstan.main.common.security.services.UserDetailsImplementation userDetails = (se.hjulverkstan.main.common.security.services.UserDetailsImplementation) authentication.getPrincipal();
         List<String> roles = userDetails.getAuthorities().stream()
                 .map(GrantedAuthority::getAuthority)
                 .collect(Collectors.toList());

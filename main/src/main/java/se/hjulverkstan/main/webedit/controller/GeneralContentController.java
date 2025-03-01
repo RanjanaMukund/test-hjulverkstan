@@ -6,12 +6,13 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import se.hjulverkstan.main.webedit.dto.GeneralContentDto;
 import se.hjulverkstan.main.webedit.dto.UpdateGeneralContentWithLangDto;
-import se.hjulverkstan.main.model.webedit.Language;
+import se.hjulverkstan.main.webedit.model.Language;
 import se.hjulverkstan.main.webedit.service.GeneralContentService;
 
 import java.util.List;
 
-import static se.hjulverkstan.main.util.WebEditUtils.validateLanguage;
+import static se.hjulverkstan.main.common.util.WebEditUtils.validateLanguage;
+
 
 @RestController
 @RequestMapping("v1/web-edit/general-content")

@@ -3,14 +3,14 @@ package se.hjulverkstan.main.webedit.service;
 import se.hjulverkstan.Exceptions.ElementNotFoundException;
 import se.hjulverkstan.main.webedit.dto.GeneralContentDto;
 import se.hjulverkstan.main.webedit.dto.UpdateGeneralContentWithLangDto;
-import se.hjulverkstan.main.model.webedit.Language;
+
 
 import java.util.List;
 
 public interface GeneralContentService {
-    List<GeneralContentDto> getAllGeneralContentsByLang(Language lang);
+    List<GeneralContentDto> getAllGeneralContentsByLang(se.hjulverkstan.main.webedit.model.Language lang);
 
-    GeneralContentDto getGeneralContentByIdAndLang(Long id, Language lang);
+    GeneralContentDto getGeneralContentByIdAndLang(Long id, se.hjulverkstan.main.webedit.model.Language lang);
 
     /**
      * Edits or deletes the localized content of a specified GeneralContent entry based on the provided updates.
