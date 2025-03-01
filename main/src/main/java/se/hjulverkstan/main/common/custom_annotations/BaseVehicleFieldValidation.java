@@ -1,4 +1,4 @@
-package se.hjulverkstan.main.custom_annotations;
+package se.hjulverkstan.main.common.custom_annotations;
 
 public interface BaseVehicleFieldValidation {
     String getRegTag();

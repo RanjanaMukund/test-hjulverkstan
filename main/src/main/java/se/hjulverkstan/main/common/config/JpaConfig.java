@@ -1,4 +1,4 @@
-package se.hjulverkstan.main.config;
+package se.hjulverkstan.main.common.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

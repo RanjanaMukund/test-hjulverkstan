@@ -1,12 +1,11 @@
-package se.hjulverkstan.main.custom_annotations;
+package se.hjulverkstan.main.common.custom_annotations;
 
 import jakarta.validation.ConstraintValidator;
 import jakarta.validation.ConstraintValidatorContext;
-import se.hjulverkstan.main.dto.vehicles.EditVehicleBatchDto;
-import se.hjulverkstan.main.dto.vehicles.NewVehiclebatchDto;
-
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import se.hjulverkstan.main.dto.vehicles.EditVehicleBatchDto;
+import se.hjulverkstan.main.dto.vehicles.NewVehiclebatchDto;
 
 
 public class VehicleFieldValidator implements ConstraintValidator<VehicleValidation, BaseVehicleFieldValidation> {

@@ -1,4 +1,4 @@
-package se.hjulverkstan.main.config;
+package se.hjulverkstan.main.common.config;
 
 import org.springframework.data.domain.AuditorAware;
 import org.springframework.security.core.Authentication;
