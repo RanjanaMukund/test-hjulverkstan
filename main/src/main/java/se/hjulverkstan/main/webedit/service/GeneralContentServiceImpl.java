@@ -7,10 +7,11 @@ import org.springframework.transaction.annotation.Transactional;
 import se.hjulverkstan.Exceptions.ElementNotFoundException;
 import se.hjulverkstan.main.webedit.dto.GeneralContentDto;
 import se.hjulverkstan.main.webedit.dto.UpdateGeneralContentWithLangDto;
-import se.hjulverkstan.main.model.webedit.FieldNameType;
-import se.hjulverkstan.main.model.webedit.GeneralContent;
-import se.hjulverkstan.main.model.webedit.Language;
-import se.hjulverkstan.main.model.webedit.LocalisedContent;
+
+import se.hjulverkstan.main.webedit.model.FieldNameType;
+import se.hjulverkstan.main.webedit.model.GeneralContent;
+import se.hjulverkstan.main.webedit.model.Language;
+import se.hjulverkstan.main.webedit.model.LocalisedContent;
 import se.hjulverkstan.main.webedit.repository.GeneralContentRepository;
 
 import java.util.List;

@@ -4,7 +4,8 @@ import com.fasterxml.jackson.core.JsonParser;
 import com.fasterxml.jackson.databind.DeserializationContext;
 import com.fasterxml.jackson.databind.JsonDeserializer;
 import se.hjulverkstan.Exceptions.UnsupportedArgumentException;
-import se.hjulverkstan.main.model.webedit.Language;
+import se.hjulverkstan.main.webedit.model.Language;
+
 
 import java.io.IOException;
 

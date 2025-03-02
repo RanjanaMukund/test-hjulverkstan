@@ -6,9 +6,9 @@ import se.hjulverkstan.Exceptions.ElementNotFoundException;
 import se.hjulverkstan.main.webedit.dto.AllWebEditEntitiesByLangDto;
 import se.hjulverkstan.main.webedit.dto.GeneralContentDto;
 import se.hjulverkstan.main.webedit.dto.ShopDto;
-import se.hjulverkstan.main.model.webedit.AllWebEditEntitiesDto;
-import se.hjulverkstan.main.model.webedit.GeneralContentStrippedDto;
-import se.hjulverkstan.main.model.webedit.Language;
+import se.hjulverkstan.main.webedit.model.AllWebEditEntitiesDto;
+import se.hjulverkstan.main.webedit.model.GeneralContentStrippedDto;
+import se.hjulverkstan.main.webedit.model.Language;
 import se.hjulverkstan.main.webedit.repository.LocalisedContentRepository;
 
 import java.util.*;

@@ -8,6 +8,11 @@ import se.hjulverkstan.Exceptions.ElementNotFoundException;
 import se.hjulverkstan.Exceptions.UnsupportedTicketTypeException;
 
 import se.hjulverkstan.Exceptions.UnsupportedTicketVehiclesException;
+import se.hjulverkstan.main.customer.model.Customer;
+import se.hjulverkstan.main.customer.repository.CustomerRepository;
+import se.hjulverkstan.main.employee.model.Employee;
+import se.hjulverkstan.main.employee.repository.EmployeeRepository;
+import se.hjulverkstan.main.ticket.dto.response.GetAllTicketDto;
 import se.hjulverkstan.main.ticket.repository.TicketRepository;
 import se.hjulverkstan.main.vehicle.repository.VehicleRepository;
 import se.hjulverkstan.main.ticket.dto.request.*;

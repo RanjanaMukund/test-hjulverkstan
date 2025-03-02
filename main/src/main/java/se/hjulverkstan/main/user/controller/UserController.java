@@ -3,8 +3,8 @@ package se.hjulverkstan.main.user.controller;
 import jakarta.validation.Valid;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import se.hjulverkstan.main.dto.responses.GetAllUserDto;
 import se.hjulverkstan.main.user.dto.request.SignupRequest;
+import se.hjulverkstan.main.user.dto.response.GetAllUserDto;
 import se.hjulverkstan.main.user.dto.response.UserResponse;
 import se.hjulverkstan.main.user.service.impl.UserServiceImpl;
 

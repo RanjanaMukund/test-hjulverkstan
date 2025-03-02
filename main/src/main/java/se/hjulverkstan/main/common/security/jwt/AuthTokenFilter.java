@@ -12,8 +12,8 @@ import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.web.authentication.WebAuthenticationDetailsSource;
 import org.springframework.stereotype.Component;
 import org.springframework.web.filter.OncePerRequestFilter;
-import se.hjulverkstan.main.auth.security.jwt.JwtUtils;
-import se.hjulverkstan.main.auth.security.services.UserDetailsServiceImplementation;
+import se.hjulverkstan.main.common.security.services.UserDetailsServiceImplementation;
+
 
 import java.io.IOException;
 import java.util.Arrays;

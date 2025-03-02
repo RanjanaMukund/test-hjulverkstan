@@ -1,7 +1,7 @@
 package se.hjulverkstan.main.common.util;
 
 import se.hjulverkstan.Exceptions.UnsupportedArgumentException;
-import se.hjulverkstan.main.model.webedit.Language;
+
 import se.hjulverkstan.main.webedit.model.Language;
 
 public class WebEditUtils {

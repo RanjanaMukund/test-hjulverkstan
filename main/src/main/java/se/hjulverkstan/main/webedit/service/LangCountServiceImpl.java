@@ -4,7 +4,7 @@ import org.springframework.stereotype.Service;
 import se.hjulverkstan.Exceptions.ElementNotFoundException;
 import se.hjulverkstan.Exceptions.UnsupportedArgumentException;
 import se.hjulverkstan.main.webedit.dto.LangCountPerEntityDto;
-import se.hjulverkstan.main.model.webedit.Language;
+import se.hjulverkstan.main.webedit.model.Language;
 import se.hjulverkstan.main.webedit.repository.LocalisedContentRepository;
 
 import java.util.EnumMap;

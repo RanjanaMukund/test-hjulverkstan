@@ -4,7 +4,7 @@ import com.fasterxml.jackson.annotation.JsonAnyGetter;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import se.hjulverkstan.main.model.webedit.Language;
+import se.hjulverkstan.main.webedit.model.Language;
 
 import java.util.Map;
 

@@ -8,6 +8,8 @@ import se.hjulverkstan.Exceptions.AlreadyUsedException;
 import se.hjulverkstan.Exceptions.ElementNotFoundException;
 import se.hjulverkstan.Exceptions.UnsupportedVehicleStatusException;
 import se.hjulverkstan.Exceptions.UnsupportedVehicleTypeException;
+import se.hjulverkstan.main.location.model.Location;
+import se.hjulverkstan.main.location.repository.LocationRepository;
 import se.hjulverkstan.main.vehicle.repository.VehicleRepository;
 import se.hjulverkstan.main.ticket.model.Ticket;
 import se.hjulverkstan.main.vehicle.dto.request.*;

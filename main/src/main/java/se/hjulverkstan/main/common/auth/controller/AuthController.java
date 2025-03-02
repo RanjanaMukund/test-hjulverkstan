@@ -16,11 +16,7 @@ import se.hjulverkstan.main.common.auth.service.CookieService;
 import se.hjulverkstan.main.common.auth.service.impl.CookieServiceImpl;
 import se.hjulverkstan.main.common.dto.MessageResponse;
 import se.hjulverkstan.main.common.security.services.AuthService;
-import se.hjulverkstan.main.dto.auth.LoginRequest;
-import se.hjulverkstan.main.dto.auth.UserDetails;
-import se.hjulverkstan.main.security.services.AuthService;
-import se.hjulverkstan.main.service.CookieService;
-import se.hjulverkstan.main.service.CookieServiceImpl;
+
 
 import java.util.Arrays;
 

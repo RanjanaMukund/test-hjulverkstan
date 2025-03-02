@@ -7,7 +7,7 @@ import org.springframework.transaction.annotation.Transactional;
 import se.hjulverkstan.Exceptions.ElementNotFoundException;
 import se.hjulverkstan.Exceptions.TokenRefreshException;
 import se.hjulverkstan.main.common.auth.model.RefreshToken;
-import se.hjulverkstan.main.repository.RefreshTokenRepository;
+import se.hjulverkstan.main.common.auth.repository.RefreshTokenRepository;
 import se.hjulverkstan.main.user.model.User;
 import se.hjulverkstan.main.user.repository.UserRepository;
 

@@ -4,7 +4,8 @@ import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import se.hjulverkstan.main.model.webedit.TextType;
+import se.hjulverkstan.main.webedit.model.TextType;
+
 
 @Data
 @AllArgsConstructor

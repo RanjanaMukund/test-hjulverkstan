@@ -7,12 +7,12 @@ import org.springframework.web.bind.annotation.*;
 import se.hjulverkstan.main.webedit.dto.NewShopWithLangDto;
 import se.hjulverkstan.main.webedit.dto.ShopDto;
 import se.hjulverkstan.main.webedit.dto.UpdateShopWithLangDto;
-import se.hjulverkstan.main.model.webedit.Language;
+import se.hjulverkstan.main.webedit.model.Language;
 import se.hjulverkstan.main.webedit.service.ShopService;
 
 import java.util.List;
 
-import static se.hjulverkstan.main.util.WebEditUtils.validateLanguage;
+import static se.hjulverkstan.main.common.util.WebEditUtils.validateLanguage;
 
 @RestController
 @RequestMapping("v1/web-edit/shop")

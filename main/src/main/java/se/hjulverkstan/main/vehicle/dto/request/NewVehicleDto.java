@@ -5,11 +5,12 @@ import jakarta.validation.constraints.NotNull;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import se.hjulverkstan.main.custom_annotations.FullVehicleFieldValidation;
+import se.hjulverkstan.main.common.custom_annotations.FullVehicleFieldValidation;
+import se.hjulverkstan.main.common.custom_annotations.VehicleValidation;
 import se.hjulverkstan.main.vehicle.model.Vehicle;
 import se.hjulverkstan.main.vehicle.model.VehicleStatus;
 import se.hjulverkstan.main.vehicle.model.VehicleType;
-import se.hjulverkstan.main.custom_annotations.VehicleValidation;
+
 
 @Data
 @AllArgsConstructor

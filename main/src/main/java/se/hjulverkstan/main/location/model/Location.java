@@ -4,7 +4,8 @@ import jakarta.persistence.*;
 import lombok.*;
 import se.hjulverkstan.main.vehicle.model.Vehicle;
 import se.hjulverkstan.main.common.model.base.Auditable;
-import se.hjulverkstan.main.model.webedit.Shop;
+import se.hjulverkstan.main.webedit.model.Shop;
+
 
 import java.util.List;
 

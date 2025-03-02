@@ -1,7 +1,8 @@
 package se.hjulverkstan.main.user.service;
 
-import se.hjulverkstan.main.dto.responses.GetAllUserDto;
+
 import se.hjulverkstan.main.user.dto.request.SignupRequest;
+import se.hjulverkstan.main.user.dto.response.GetAllUserDto;
 import se.hjulverkstan.main.user.dto.response.UserResponse;
 
 public interface UserService {

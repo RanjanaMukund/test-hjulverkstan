@@ -3,8 +3,8 @@ package se.hjulverkstan.main.webedit.repository;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
-import se.hjulverkstan.main.model.webedit.Language;
-import se.hjulverkstan.main.model.webedit.LocalisedContent;
+import se.hjulverkstan.main.webedit.model.Language;
+import se.hjulverkstan.main.webedit.model.LocalisedContent;
 
 import java.util.List;
 import java.util.Optional;
