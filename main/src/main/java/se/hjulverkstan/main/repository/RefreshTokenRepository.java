@@ -4,7 +4,7 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.stereotype.Repository;
 import se.hjulverkstan.main.model.RefreshToken;
-import se.hjulverkstan.main.model.User;
+import se.hjulverkstan.main.user.model.User;
 
 import java.util.Optional;
 

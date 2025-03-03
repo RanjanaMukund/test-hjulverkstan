@@ -1,0 +1,53 @@
+package se.hjulverkstan.main.customer.controller;
+
+import jakarta.validation.Valid;
+import lombok.extern.slf4j.Slf4j;
+import org.slf4j.LoggerFactory;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.*;
+import se.hjulverkstan.main.customer.dto.request.CustomerDto;
+import se.hjulverkstan.main.customer.dto.respose.GetAllCustomerDto;
+import se.hjulverkstan.main.customer.service.CustomerService;
+import se.hjulverkstan.main.customer.dto.request.NewCustomerDto;
+import org.slf4j.Logger;
+
+@Slf4j
+@RestController
+@RequestMapping("v1/customer")
+public class CustomerController {
+
+    private final CustomerService customerService;
+
+    public CustomerController(CustomerService customerService){
+        this.customerService = customerService;
+    }
+
+    @GetMapping()
+    public ResponseEntity<GetAllCustomerDto> getAllCustomers(){
+        log.info("Fetching all customers");
+        return new ResponseEntity<>(customerService.getAllCustomer(), HttpStatus.OK);
+    }
+    @GetMapping("/{id}")
+    public ResponseEntity<CustomerDto> getCustomerById(@PathVariable Long id){
+        log.info("Fetching customer with ID: {}", id);
+        return new ResponseEntity<>(customerService.getCustomerById(id), HttpStatus.OK);
+    }
+
+    @PostMapping()
+    public ResponseEntity<CustomerDto> createCustomer(@Valid @RequestBody NewCustomerDto newCustomer){
+        log.info("Creating a new customer: {}", newCustomer);
+        return new ResponseEntity<>(customerService.createCustomer(newCustomer), HttpStatus.OK);
+    }
+
+    @PutMapping("/{id}")
+    public ResponseEntity<CustomerDto> editCustomer(@PathVariable Long id, @Valid @RequestBody CustomerDto customer){
+        log.info("Updating customer with ID: {}", id);
+        return new ResponseEntity<>(customerService.editCustomer(id, customer), HttpStatus.OK);
+    }
+    @DeleteMapping("/{id}")
+    public ResponseEntity<CustomerDto> deleteCustomer(@PathVariable Long id){
+        log.info("Deleting customer with ID: {}", id);
+        return new ResponseEntity<>(customerService.deleteCustomer(id), HttpStatus.OK);
+    }
+}

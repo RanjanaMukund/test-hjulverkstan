@@ -1,0 +1,10 @@
+package se.hjulverkstan.main.common.exceptions.validation;
+
+import org.springframework.http.HttpStatus;
+import se.hjulverkstan.main.common.exceptions.ApiException;
+
+public class UnsupportedArgumentException extends ApiException {
+    public UnsupportedArgumentException(String argument) {
+        super(HttpStatus.BAD_REQUEST.name(),  argument + " is not a valid argument for this operation", HttpStatus.BAD_REQUEST.value());
+    }
+}

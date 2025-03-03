@@ -1,0 +1,42 @@
+package se.hjulverkstan.main.webedit.controller;
+
+import jakarta.validation.Valid;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.*;
+import se.hjulverkstan.main.webedit.dto.GeneralContentDto;
+import se.hjulverkstan.main.webedit.dto.UpdateGeneralContentWithLangDto;
+import se.hjulverkstan.main.webedit.model.Language;
+import se.hjulverkstan.main.webedit.service.GeneralContentService;
+
+import java.util.List;
+
+import static se.hjulverkstan.main.common.util.WebEditUtils.validateLanguage;
+
+
+@RestController
+@RequestMapping("v1/web-edit/general-content")
+public class GeneralContentController {
+    private final GeneralContentService generalContentService;
+
+    public GeneralContentController(GeneralContentService generalContentService) {
+        this.generalContentService = generalContentService;
+    }
+
+    @GetMapping()
+    public ResponseEntity<List<GeneralContentDto>> getAllGeneralContents(@RequestParam(name = "lang") String lang) {
+        Language language = validateLanguage(lang);
+        return new ResponseEntity<>(generalContentService.getAllGeneralContentsByLang(language), HttpStatus.OK);
+    }
+
+    @GetMapping("/{id}")
+    public ResponseEntity<GeneralContentDto> getGeneralContent(@PathVariable Long id, @RequestParam(name = "lang") String lang) {
+        Language language = validateLanguage(lang);
+        return new ResponseEntity<>(generalContentService.getGeneralContentByIdAndLang(id, language), HttpStatus.OK);
+    }
+
+    @PutMapping("/{id}")
+    public ResponseEntity<GeneralContentDto> editGeneralContent(@PathVariable Long id, @Valid @RequestBody UpdateGeneralContentWithLangDto entry) {
+        return new ResponseEntity<>(generalContentService.editGeneralContent(id, entry), HttpStatus.OK);
+    }
+}

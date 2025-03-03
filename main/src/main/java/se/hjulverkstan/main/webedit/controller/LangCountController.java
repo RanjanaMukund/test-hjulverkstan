@@ -1,0 +1,29 @@
+package se.hjulverkstan.main.webedit.controller;
+
+import io.swagger.v3.oas.annotations.Operation;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
+import se.hjulverkstan.main.webedit.dto.LangCountPerEntityDto;
+import se.hjulverkstan.main.webedit.service.LangCountService;
+
+@RestController
+@RequestMapping("v1/web-edit/count")
+public class LangCountController {
+    private final LangCountService langCountService;
+
+    public LangCountController(LangCountService langCountService) {
+        this.langCountService = langCountService;
+    }
+
+    @Operation(
+            description = "Used for display and selection of localised content in WebEdit"
+    )
+    @GetMapping()
+    public ResponseEntity<LangCountPerEntityDto> getEntityLangCount(@RequestParam String entity) {
+        return new ResponseEntity<>(langCountService.getLangCountByEntity(entity), HttpStatus.OK);
+    }
+}
